@@ -1,4 +1,11 @@
 # Project 2 Development User Guide.
+
+```diff
+- Warning this current version needs new videos to be entered to play
+```
+Visit the Google Docs for a working version [Here](https://drive.google.com/drive/u/1/folders/0B2GSMC1ctYnAZUtTem9NUXVmR1k)
+
+
 ####  Game Flow
 The game flow is broken up into 4 scenes.
 
