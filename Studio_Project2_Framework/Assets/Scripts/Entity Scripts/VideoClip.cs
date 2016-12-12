@@ -10,4 +10,6 @@ public class VideoClip : MonoBehaviour
     //The video and audio parts of the full clip
     public MovieTexture movTexture;
     public AudioClip movAudio;
+    [SerializeField]
+    public string descriptionIntro;
 }

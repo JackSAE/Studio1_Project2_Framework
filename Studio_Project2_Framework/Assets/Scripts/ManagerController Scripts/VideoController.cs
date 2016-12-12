@@ -12,16 +12,18 @@ public class VideoController : MonoBehaviour
     #endregion
 
     #region Serialized Variables
-
+    [SerializeField]
+    public Material screenMat;
     #endregion
 
     #region Private Variables
-    private Material screenMat;
     private AudioSource audioSource;
     #endregion
 
     void Awake()
     {
+
+
         //Links the audio and video components of the Video Screen
         screenMat = GetComponent<Renderer>().material;
         audioSource = GetComponent<AudioSource>();

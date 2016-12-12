@@ -11,7 +11,7 @@ public class OutroVideoLogic : MonoBehaviour {
 	void Start ()
     {
         videoController.PlayVideo(DetermineOutroVideo(videoController.videoClips));
-        GameManager.instance.PlayScore = 0;
+        //GameManager.instance.PlayScore = 0;
 	}
 
     VideoClip DetermineOutroVideo(List<VideoClip> _videoClips)
